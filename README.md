@@ -1,1 +1,4 @@
--- The Ultimate calculator is for the lua coding language 
+Use lua :)
+
+anything in the "boxes" are inputs or input settings.
+enjoy
