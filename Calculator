@@ -1,0 +1,258 @@
+----------------------------------------------------------------
+----------------------------------------------------------------
+--                      Version 1.0                           --
+--  ----====+     The Ultimite Calculator     +====-----      --
+--     "Made By american students for american students"      --
+--        (Scroll down for actual calculator input)          --
+--                                                            --
+--                                                            --
+--   Thank you for your purchase of the Ultimate Calculator   --
+--                                                            --
+--  Dont Mess With The code only the things in blue "boxes"   --
+--              If you want to avoid problems                 --
+----------------------------------------------------------------
+----------------------------------------------------------------
+
+
+function addition(a, b, c) --handles addition
+  if (true)
+  then
+    c = a + b
+    result = c
+  end
+  return result
+end
+
+function subtraction(a, b, c) -- handles subtraction
+    if (true)
+    then
+        c = a - b
+        result = c
+    end
+    return result
+end
+
+function multiplication(a, b, c) -- handles multiplication
+    if (true)
+    then
+        c = a * b
+        result = c
+    end
+    return result
+end
+
+function division(a, b, c) --handles division
+    if (true)
+    then
+        c = a / b
+        result = c
+    end
+    return result
+end
+
+local simple, complex, b, a
+------------------------------------------------------------------------------------------------------------------------------------
+
+--                  ---- Config ----                   --
+ --                                                   --
+---------------------------------------------------------
+ simple  = 0  --   0 =       Addition    1 = Subtraction
+ complex = 0  --   0 = Multiplication    1 = Division
+ a = 0  -- bigger number
+ b = 0  -- smaller number
+---------------------------------------------------------
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------
+-- Addition / Subtraction will be executed first
+if simple == 0
+then
+  print("Addition result:", addition(a, b, 0)) -- add
+  else
+    print("Subtraction result:",subtraction(a, b, 0)) -- subtract
+end
+if complex == 0
+then
+  print("Multiplication result:", multiplication(a, b, 0)) -- multiply
+  else
+    print("Division result:", division(a, b, 0)) -- divide
+end
+------------------------------------------------------------------------------------------------------------------------------------
+
+
+-- Instructions: replace a with largest number of the two and replace b with the smallest number LEAVE C ALONE!!! specify value of a (1 and 0) and then specify b (1 and 0) 0 does additive operations and 1 does subtractive operations. the result will be printed in the output
+-- This is for basic operations such as addition and division
+
+
+-- Go Down for more "Complex" 0perations
+------------------------------------------------------------------------------------------------------------------------------------
+          -- area calculator --
+function RectangularPrisimArea(v, w, h, l)  -- prisim area
+  if (true)
+  then
+    v  = w * h * l
+    result = v
+  end
+  return result
+end
+
+function RectangularPrisimSurfaceAreaLateral(s, p, h)  -- lateral surface area
+    if (true)
+    then
+        s = p * h
+        result = s
+    end
+    return result
+end
+
+function RectangularPrisimTotalSurfaceArea(s, s2, s3, p, h, b)  -- total surface area
+    if (true)
+    then
+        s = p * h
+        s2 = b * 2
+        s3 = s + s2
+        result = s3
+    end
+    return result
+end
+
+function TriangleArea(a, h, b)  -- triangle area
+  if (true)
+  then
+    a = b * h
+    a = a / 2
+    result = a
+  end
+  return result
+end
+
+function CircleArea(a, r)  -- circle area
+  if (true)
+  then
+    r = r * 2
+    a = 3.14 * r
+    result = a
+  end
+  return result
+end
+
+function SphereTotalArea(a, a2, r) -- Sphere Total Area
+  if (true)
+  then
+    r = r * 2
+    a = 3.14 * r
+    a2 = a * 4
+    result = a2
+  end
+  return result
+end
+
+function PyramidVolume(v, v2, b, h)  -- pyramid volume
+  if (true)
+  then
+    v = b * h
+    v2 = v / 3
+    result = v2
+  end
+  return result
+end
+
+function Circumference(c, d)   -- Circumference
+    if (true)
+    then
+        c = 3.14 * d
+        result = c
+    end
+    return result
+end
+
+
+local x, h, l, w, p
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+        --        ----=== config ===----           --
+        ---     For Rectangle Caclulations        ---
+        ---------------------------------------------
+        x = 0  -- 0 = volume, 1 = lateral, 2 = total
+        h = 0  -- Height
+        l = 0  -- length
+        w = 0  -- width
+        p = 0  -- perimeter
+        b = 0  -- base
+        ---------------------------------------------
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+
+if (x == 0)
+then
+  print("Rectangular Prisim Volume", RectangularPrisimArea(0, w, h, l))
+  --                                                       v, w, h, l
+  else
+    if (x == 1)
+    then
+      print("Rectangular Prisim lateral Surface Area", RectangularPrisimSurfaceAreaLateral(0, p, h))
+      --                                                                                   s, p, h
+      else
+        print("Rectangular Prisim total Surface Area", RectangularPrisimTotalSurfaceArea(0,  0,  0, p, h, b))
+        --                                                                               s, s2, s3, p, h, b
+    end
+end
+
+------------------------------------------------------------------------------------------------------------------------------------
+local h, b, r, y
+------------------------------------------------------------------------------------------------------------------------------------
+--    ----=== Config ===----    --
+---      For Other Shapes      ---
+----------------------------------
+y = 0 -- 1 = circle area 0 = sphere surface area
+h = 0 -- Height
+b = 0 -- Base
+r = 0 -- Radius (For Circles)
+d = 0 -- Diameter (For Circles)
+----------------------------------
+
+if (y == 1)
+then
+  print("Circle Area", CircleArea(0, r))
+  else
+    print("Sphere Surface Area", SphereTotalArea(0, 0, r))
+end
+
+if (z == 1)
+then
+  print("Triangle Area", TriangleArea(0, h, b))
+  else
+    print("PyramidVolume", PyramidVolume(0, 0, b, h))
+end
+  
+print("Circumference", Circumference(0, d))
+
+
+------------------------------------------------------------------------------------------------------------------------------------
+-- Instructions anything that is an s, v, or a DO NOT TOUCH! the rest correspond to the variable used in the equation to solve for said; area, volume, etc. For rectangles change the number value of x which changes from volume, lateral, and total (0 to 2)
+-- on a side note I want to die this has taken so fucking long so please dont betray my trust and hand this out to randos. Because i will find you.
+-- Thank You!
+--     - Poilikis
+------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+---------------------------
+---------------------------
+--    Additional Info    --
+-- Calculator Num:   1   --
+-- Owner: Cheweyy        --
+-- Time Obtained: 3:09PM --
+---------------------------
+---------------------------
