@@ -228,7 +228,7 @@ if (z == 1)
 then
   print("Triangle Area", TriangleArea(0, h, b))
   else
-    print("PyramidVolume", PyramidVolume(0, 0, b, h))
+    print("PyramidVolume", Pyramid Volume(0, 0, b, h))
 end
   
 print("Circumference", Circumference(0, d))
