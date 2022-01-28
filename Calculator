@@ -7,7 +7,7 @@
 --                                                            --
 --                                                            --
 --   Thank you for your purchase of the Ultimate Calculator   --
---                                                            --
+--              or got lucky enough to own a copy             --
 --  Dont Mess With The code only the things in blue "boxes"   --
 --              If you want to avoid problems                 --
 ----------------------------------------------------------------
@@ -236,7 +236,8 @@ print("Circumference", Circumference(0, d))
 
 ------------------------------------------------------------------------------------------------------------------------------------
 -- Instructions anything that is an s, v, or a DO NOT TOUCH! the rest correspond to the variable used in the equation to solve for said; area, volume, etc. For rectangles change the number value of x which changes from volume, lateral, and total (0 to 2)
--- on a side note I want to die this has taken so fucking long so please dont betray my trust and hand this out to randos. Because i will find you.
+-- Use this to either help with math or to give a good idea on the functions of lua
+-- Boles
 -- Thank You!
 --     - Poilikis
 ------------------------------------------------------------------------------------------------------------------------------------
@@ -256,3 +257,32 @@ print("Circumference", Circumference(0, d))
 -- Time Obtained: 3:09PM --
 ---------------------------
 ---------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+--                            ,--,                          
+--               ,----..   ,---.'|                          
+--    ,---,.    /   /   \  |   | :       ,---,.  .--.--.    
+--  ,'  .'  \  /   .     : :   : |     ,'  .' | /  /    '.  
+--,---.' .' | .   /   ;.  \|   ' :   ,---.'   ||  :  /`. /  
+--|   |  |: |.   ;   /  ` ;;   ; '   |   |   .';  |  |--`   
+--:   :  :  /;   |  ; \ ; |'   | |__ :   :  |-,|  :  ;_     
+--:   |    ; |   :  | ; | '|   | :.'|:   |  ;/| \  \    `.  
+--|   :     \.   |  ' ' ' :'   :    ;|   :   .'  `----.   \ 
+--|   |   . |'   ;  \; /  ||   |  ./ |   |  |-,  __ \  \  | 
+--'   :  '; | \   \  ',  / ;   : ;   '   :  ;/| /  /`--'  / 
+--|   |  | ;   ;   :    /  |   ,/    |   |    \'--'.     /  
+--|   :   /     \   \ .'   '---'     |   :   .'  `--'---'   
+--|   | ,'       `---`               |   | ,'               
+--`----'                             `----'                 
+                                                          
