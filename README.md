@@ -1,4 +1,2 @@
-Use lua :)
-
-anything in the "boxes" are inputs or input settings.
-enjoy
+Updates
+- fixed a bug relating to circle area not working
