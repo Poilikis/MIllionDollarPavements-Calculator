@@ -233,12 +233,12 @@ local h, b, r, y, z, w
 --    ----=== Config ===----    --
 ---      For Other Shapes      ---
 ----------------------------------
-w = 1 -- 1 = circumference 0 = cylinder lateral area
+w = 0 -- 1 = circumference 0 = cylinder lateral area
 z = 0 -- 1 = triangle area 0 = pyramid area
 y = 0 -- 1 = circle area   0 = sphere surface area
-h = 2 -- Height
+h = 0 -- Height
 b = 0 -- Base
-r = 1 -- Radius (For Circles)
+r = 0 -- Radius (For Circles)
 d = 0 -- Diameter (For Circles)
 ----------------------------------
 
