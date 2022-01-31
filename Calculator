@@ -270,9 +270,9 @@ print("Circumference:", Circumference(0, d))
 ------------------------------------------------------------------------------------------------------------------------------------
 -- For rectangles change the number value of x which changes from volume, lateral, and total (0 to 2)
 -- Use this to either help with math or to give a good idea on the functions of lua
--- Boles
+-- Boles,Boles
 -- Thank You!
---     - Poilikis
+--     - Poilikis, Cheweyy
 ------------------------------------------------------------------------------------------------------------------------------------
 
 
