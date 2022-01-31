@@ -1,3 +1,8 @@
+The calculator is for the lua language and I suggest this website
+https://www.tutorialspoint.com/execute_lua_online.php
+
+
+
 Updates
 
 
