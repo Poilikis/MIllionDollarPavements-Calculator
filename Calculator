@@ -1,9 +1,9 @@
 ----------------------------------------------------------------
 ----------------------------------------------------------------
---                      Version 1.02                          --
+--                      Version 1.01                          --
 --  ----====+     The Ultimite Calculator     +====-----      --
 --     "Made By american students for american students"      --
---        (Scroll down for actual calculator input)          --
+--        (Scroll down for actual calculator input)           --
 --                                                            --
 --                                                            --
 --   Thank you for your purchase of the Ultimate Calculator   --
@@ -240,6 +240,7 @@ h = 0 -- Height
 b = 0 -- Base
 r = 0 -- Radius (For Circles)
 d = 0 -- Diameter (For Circles)
+-- scroll up for rectangles
 ----------------------------------
 
 if (y == 1)
@@ -270,9 +271,9 @@ print("Circumference:", Circumference(0, d))
 ------------------------------------------------------------------------------------------------------------------------------------
 -- For rectangles change the number value of x which changes from volume, lateral, and total (0 to 2)
 -- Use this to either help with math or to give a good idea on the functions of lua
--- Boles,Boles
+-- Boles
 -- Thank You!
---     - Poilikis, Cheweyy
+--     - Poilikis
 ------------------------------------------------------------------------------------------------------------------------------------
 
 
