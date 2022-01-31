@@ -131,7 +131,7 @@ function CircleArea(a, r)  -- circle area
   if (true)
   then
     r = r * 2
-    a = 3.14 * r
+    a = 3.14159265359 * r
     result = a
   end
   return result
@@ -141,7 +141,7 @@ function SphereTotalArea(a, a2, r) -- Sphere Total Area
   if (true)
   then
     r = r * 2
-    a = 3.14 * r
+    a = 3.14159265359 * r
     a2 = a * 4
     result = a2
   end
@@ -161,9 +161,32 @@ end
 function Circumference(c, d)   -- Circumference
     if (true)
     then
-        c = 3.14 * d
+        c = 3.14159265359 * d
         result = c
     end
+    return result
+end
+
+function CylinderLateralArea (p, r, h, l)
+    if (true)
+    then
+        p = 3.14159265359 * 2
+        l = p * r * h
+        result = l
+        end
+    return result
+end
+
+function CylinderTotalArea (p, r, h, l, r2, l2, l3)
+    if (true)
+    then
+        p = 3.14159265359 * 2
+        l = p * r * h
+        r2 = r * r
+        l2 = r2 * p
+        l3 = l + l2
+        result = l3
+        end
     return result
 end
 
@@ -205,15 +228,17 @@ then
 end
 
 ------------------------------------------------------------------------------------------------------------------------------------
-local h, b, r, y
+local h, b, r, y, z, w
 ------------------------------------------------------------------------------------------------------------------------------------
 --    ----=== Config ===----    --
 ---      For Other Shapes      ---
 ----------------------------------
-y = 0 -- 1 = circle area 0 = sphere surface area
-h = 0 -- Height
+w = 1 -- 1 = circumference 0 = cylinder lateral area
+z = 0 -- 1 = triangle area 0 = pyramid area
+y = 0 -- 1 = circle area   0 = sphere surface area
+h = 2 -- Height
 b = 0 -- Base
-r = 0 -- Radius (For Circles)
+r = 1 -- Radius (For Circles)
 d = 0 -- Diameter (For Circles)
 ----------------------------------
 
@@ -231,11 +256,19 @@ then
     print("Pyramid Volume", PyramidVolume(0, 0, b, h))
 end
   
+  
+if (w == 1)
+then
+    print("Cylinder Total Area", CylinderTotalArea(0, r, h, 0, 0, 0, 0))
+    else
+        print("Cylinder Lateral Area", CylinderLateralArea(0, r, h, 0))
+end
+
 print("Circumference", Circumference(0, d))
 
 
 ------------------------------------------------------------------------------------------------------------------------------------
--- Instructions anything that is an s, v, or a DO NOT TOUCH! the rest correspond to the variable used in the equation to solve for said; area, volume, etc. For rectangles change the number value of x which changes from volume, lateral, and total (0 to 2)
+-- For rectangles change the number value of x which changes from volume, lateral, and total (0 to 2)
 -- Use this to either help with math or to give a good idea on the functions of lua
 -- Boles
 -- Thank You!
