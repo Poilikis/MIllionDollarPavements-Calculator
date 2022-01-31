@@ -228,7 +228,7 @@ if (z == 1)
 then
   print("Triangle Area", TriangleArea(0, h, b))
   else
-    print("PyramidVolume", Pyramid Volume(0, 0, b, h))
+    print("Pyramid Volume", PyramidVolume(0, 0, b, h))
 end
   
 print("Circumference", Circumference(0, d))
@@ -252,9 +252,9 @@ print("Circumference", Circumference(0, d))
 ---------------------------
 ---------------------------
 --    Additional Info    --
--- Calculator Num:   1   --
--- Owner: Cheweyy        --
--- Time Obtained: 3:09PM --
+-- Calculator Num:   0   --
+-- Owner:                --
+-- Time Obtained:        --
 ---------------------------
 ---------------------------
 
