@@ -269,6 +269,7 @@ then
                 print("Triangular Prisim Area:", TriangularArea(a, b, h))
             end
         end
+        
 ------------------------------------------------------------------------------------------------------------------------------------
 local h, b, r, y, z, w
 ------------------------------------------------------------------------------------------------------------------------------------
@@ -307,9 +308,6 @@ then
         print("Cylinder Lateral Area:", CylinderLateralArea(0, r, h, 0))
 end
 
-if (s == 1)
-then
-    print("Triangular Surface Area Lateral:", TriangularPrisimLateral(a, p, h))
 
 print("Circumference:", Circumference(0, d))
 
