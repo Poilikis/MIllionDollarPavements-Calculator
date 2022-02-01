@@ -6,6 +6,9 @@ https://www.tutorialspoint.com/execute_lua_online.php
 Updates
 
 2/1/22
+- Triangular Prisims! Can be found where the rectangular prisim calculations are
+
+2/1/22
 - Changed text around so description for the cylinder calculations is more clear
 - Removed looker entity again
 
