@@ -317,7 +317,7 @@ print("Circumference:", Circumference(0, d))
 -- Use this to either help with math or to give a good idea on the functions of lua
 -- Boles
 -- Thank You!
---     - Poilikis
+--     - Poilikis, and Cheweyy
 ------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -333,7 +333,7 @@ print("Circumference:", Circumference(0, d))
 -- Calculator Num:   0   --
 -- Owner:                --
 -- Time Obtained:        --
--- Version: 1.02         --
+-- Version: 1.03         --
 ---------------------------
 ---------------------------
 
