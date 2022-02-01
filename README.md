@@ -14,7 +14,7 @@ Updates
 - removed looker entity again
 
 1/31/22
-another
+
 - Cylinders! (Area Still Under Development! And Might Need More Testing)
 - Added ":" to the end of every output to make them look nicer
 - removed looker entity again
