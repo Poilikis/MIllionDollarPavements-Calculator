@@ -6,6 +6,9 @@ https://www.tutorialspoint.com/execute_lua_online.php
 Updates
 
 2/1/22
+- Fixed A Bug Relating To Triangular Prisims causing output to not load
+
+2/1/22
 - Triangular Prisims! Can be found where the rectangular prisim calculations are
 
 2/1/22
