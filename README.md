@@ -5,6 +5,10 @@ https://www.tutorialspoint.com/execute_lua_online.php
 
 Updates
 
+2/1/22
+- Changed text around so description for the cylinder calculations is more clear
+- Removed looker entity again
+
 1/31/22
 - added clarity for where rectangle calculations are (Yes im looking at you cheweyy)
 - removed looker entity again
