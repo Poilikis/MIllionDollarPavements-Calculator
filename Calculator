@@ -190,8 +190,37 @@ function CylinderTotalArea (p, r, h, l, r2, l2, l3) -- cylinder total surface ar
     return result
 end
 
+function TriangularPrisimLateral(a, p, h)
+    if (true)
+    then
+        a = p * h
+        result = a
+    end
+    return result
+end
 
-local x, h, l, w, p
+function TriangularPrisimTotal(s, s2, s3, p, h, b)
+    if (true)
+    then
+        s = p * h
+        s2 = b * 2
+        s3 = s + s2
+        result = s3
+    end
+    return result
+end
+
+function TriangularArea(a, b, h)
+    if (true)
+    then
+        a = b * h
+        result = a
+    end
+    return result
+end
+
+
+local x, h, l, w, p, s
 
 
 
@@ -200,8 +229,10 @@ local x, h, l, w, p
 
         --        ----=== config ===----           --
         ---     For Rectangle Caclulations        ---
+        ---      and trianglular prisims          ---
         ---------------------------------------------
-        x = 0  -- 0 = volume, 1 = lateral, 2 = total
+        s = 0  -- 0 = lateral,1 = total,   2 = area
+        x = 2  -- 0 = volume, 1 = lateral, 2 = total
         h = 0  -- Height
         l = 0  -- length
         w = 0  -- width
@@ -227,6 +258,17 @@ then
     end
 end
 
+if (s == 0)
+then
+    print("Triangular Surface Area Lateral:", TriangularPrisimLateral(a, p, h))
+    else
+        if (s == 1)
+        then
+            print("Triangular Surface Area Total:", TriangularPrisimTotal(s, s2, s3, p, h, b))
+            else
+                print("Triangular Prisim Area:", TriangularArea(a, b, h))
+            end
+        end
 ------------------------------------------------------------------------------------------------------------------------------------
 local h, b, r, y, z, w
 ------------------------------------------------------------------------------------------------------------------------------------
@@ -264,6 +306,10 @@ then
     else
         print("Cylinder Lateral Area:", CylinderLateralArea(0, r, h, 0))
 end
+
+if (s == 1)
+then
+    print("Triangular Surface Area Lateral:", TriangularPrisimLateral(a, p, h))
 
 print("Circumference:", Circumference(0, d))
 
