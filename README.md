@@ -1,8 +1,10 @@
 The calculator is for the lua language and I suggest this website
+
 https://www.tutorialspoint.com/execute_lua_online.php (Dont Get It Blocked)
 
 
 This Calculator Is Fueled By Suffering And Creamed Corn
+
 
 
 Updates
