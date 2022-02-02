@@ -7,11 +7,11 @@ Updates
 
 2/1/22
 - Fixed A Bug Relating To Triangular Prisims causing output to not load
-- lost looker entity :(
+- Lost Looker Entity :(
 
 2/1/22
 - Triangular Prisims! Can be found where the rectangular prisim calculations are
-- Looker Entity Went fishing
+- Looker Entity Went Fishing
 
 2/1/22
 - Changed text around so description for the cylinder calculations is more clear
