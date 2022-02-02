@@ -1,13 +1,8 @@
 The calculator is for the lua language and I suggest this website
-
 https://www.tutorialspoint.com/execute_lua_online.php
- 
+-
 
-This Calculator Is Fueled By Suffering And Creamed Corn
- 
- 
- 
-Updates
+Updates:
 
 2/1/22
 - Fixed A Bug Relating To Triangular Prisims causing output to not load
