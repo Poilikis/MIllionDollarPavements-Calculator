@@ -87,6 +87,7 @@ end
 
 -- Go Down for more "Complex" 0perations
 ------------------------------------------------------------------------------------------------------------------------------------
+print("--==+ Start Of Geometric Shapes +==--")
           -- area calculator --
 function RectangularPrisimArea(v, w, h, l)  -- prisim area
   if (true)
@@ -220,6 +221,8 @@ function TriangularArea(a, b, h)
 end
 
 
+
+
 local x, h, l, w, p, s
 
 
@@ -317,7 +320,7 @@ print("Circumference:", Circumference(0, d))
 -- Use this to either help with math or to give a good idea on the functions of lua
 -- Boles
 -- Thank You!
---     - Poilikis, and Cheweyy
+--     - Poilikis
 ------------------------------------------------------------------------------------------------------------------------------------
 
 
