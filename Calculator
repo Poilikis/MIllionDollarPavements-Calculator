@@ -1,6 +1,6 @@
 ----------------------------------------------------------------
 ----------------------------------------------------------------
---                      Version 1.14                          --
+--                      Version 1.15                          --
 --  ----====+     The Ultimite Calculator     +====-----      --
 --     "Made By american students for american students"      --
 --        (Scroll down for actual calculator input)           --
@@ -220,10 +220,18 @@ function TriangularArea(a, b, h)
     return result
 end
 
+function perimeter2base(l, w, b)
+    if (true)
+    then
+        b = l * w
+        result =  b
+    end
+    return result
+end
 
 
 
-local x, h, l, w, p, s
+local x, h, l, w, p, s, t
 
 
 
@@ -234,6 +242,7 @@ local x, h, l, w, p, s
         ---     For Rectangle Caclulations        ---
         ---      and trianglular prisims          ---
         ---------------------------------------------
+        t = 1  -- 0 = off     1 = on         -- for Perimeter to base calculations (NOT FOR TRIANGLES)
         s = 0  -- 0 = lateral,1 = total,   2 = area
         x = 0  -- 0 = volume, 1 = lateral, 2 = total
         h = 0  -- Height
@@ -245,6 +254,11 @@ local x, h, l, w, p, s
 
 ------------------------------------------------------------------------------------------------------------------------------------
 
+
+if (t == 1)
+then
+    print("Base:", perimeter2base(l, w, 0))
+end
 
 if (x == 0)
 then
@@ -336,7 +350,7 @@ print("Circumference:", Circumference(0, d))
 -- Calculator Num:   0   --
 -- Owner:                --
 -- Time Obtained:        --
--- Version: 1.14         --
+-- Version: 1.15         --
 ---------------------------
 ---------------------------
 
