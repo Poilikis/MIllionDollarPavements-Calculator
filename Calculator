@@ -235,7 +235,7 @@ local x, h, l, w, p, s
         ---      and trianglular prisims          ---
         ---------------------------------------------
         s = 0  -- 0 = lateral,1 = total,   2 = area
-        x = 2  -- 0 = volume, 1 = lateral, 2 = total
+        x = 0  -- 0 = volume, 1 = lateral, 2 = total
         h = 0  -- Height
         l = 0  -- length
         w = 0  -- width
