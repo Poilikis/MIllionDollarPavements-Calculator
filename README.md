@@ -15,6 +15,10 @@ https://www.tutorialspoint.com/execute_lua_online.php
 Updates:
 
 2/7/22
+- Added Perimeter To Base Calculations (Found In Rectangular Prisim area)
+- Gave Looker Entity Creamed Corn
+
+2/7/22
 - We've Gone Public!!!!11!!
 - Added Name For "Company"
 - Added Branding To The Calculator
