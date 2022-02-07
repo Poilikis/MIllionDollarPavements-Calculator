@@ -15,8 +15,11 @@ https://www.tutorialspoint.com/execute_lua_online.php
 Updates:
 
 2/7/22
+- We've Gone Public!!!!11!!
 - Added Name For "Company"
 - Added Branding To The Calculator
+- Changed Repository Name
+- Added Another Repository To Redirect Users To Here
 - Removed "Boles" Due To It Being A Misspell Of "Bolas" Spanish For Balls
 - Found Looker Entity :)
 
