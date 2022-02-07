@@ -1,6 +1,6 @@
 ----------------------------------------------------------------
 ----------------------------------------------------------------
---                      Version 1.04                          --
+--                      Version 1.14                          --
 --  ----====+     The Ultimite Calculator     +====-----      --
 --     "Made By american students for american students"      --
 --        (Scroll down for actual calculator input)           --
@@ -336,7 +336,7 @@ print("Circumference:", Circumference(0, d))
 -- Calculator Num:   0   --
 -- Owner:                --
 -- Time Obtained:        --
--- Version: 1.04         --
+-- Version: 1.14         --
 ---------------------------
 ---------------------------
 
