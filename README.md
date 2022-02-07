@@ -2,7 +2,20 @@ The calculator is for the lua language and I suggest this website
 https://www.tutorialspoint.com/execute_lua_online.php
 -
 
+          _____ _ _ _                  ___      _ _                ___                                     _       
+  /\/\    \_   \ | (_) ___  _ __      /   \___ | | | __ _ _ __    / _ \__ ___   _____ _ __ ___   ___ _ __ | |_ ___ 
+ /    \    / /\/ | | |/ _ \| '_ \    / /\ / _ \| | |/ _` | '__|  / /_)/ _` \ \ / / _ \ '_ ` _ \ / _ \ '_ \| __/ __|
+/ /\/\ \/\/ /_ | | | | (_) | | | |  / /_// (_) | | | (_| | |    / ___/ (_| |\ V /  __/ | | | | |  __/ | | | |_\__ \
+\/    \/\____/ |_|_|_|\___/|_| |_| /___,' \___/|_|_|\__,_|_|    \/    \__,_| \_/ \___|_| |_| |_|\___|_| |_|\__|___/
+-
+
 Updates:
+
+2/7/22
+- Added Name For "Company"
+- Added Branding To The Calculator
+- Removed "Boles" Due To It Being A Misspell Of "Bolas" Spanish For Balls
+- Found Looker Entity :)
 
 2/1/22
 - Fixed A Bug Relating To Triangular Prisims causing output to not load
