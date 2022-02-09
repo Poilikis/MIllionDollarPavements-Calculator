@@ -128,12 +128,13 @@ function TriangleArea(a, h, b)  -- triangle area
   return result
 end
 
-function CircleArea(a, r)  -- circle area
+function CircleArea(a, r, r2, a2)  -- circle area
   if (true)
   then
-    r = r * 2
-    a = 3.14159265359 * r
-    result = a
+    r2 = r * r
+    a = 3.14159265359 * r2
+    a2 = r2 + a
+    result = a2
   end
   return result
 end
@@ -295,17 +296,17 @@ local h, b, r, y, z, w
 -----------------------------------
 w = 0 -- 1 = Cylinder Total Area 0 = cylinder lateral area
 z = 0 -- 1 = triangle area       0 = pyramid area
-y = 0 -- 1 = circle area         0 = sphere surface area
+y = 1 -- 1 = circle area         0 = sphere surface area
 h = 0 -- Height
 b = 0 -- Base
-r = 0 -- Radius (For Circles)
-d = 0 -- Diameter (For Circles)
+r = 12 -- Radius (For Circles)
+d = 24 -- Diameter (For Circles)
 -- scroll up for rectangles
 ----------------------------------
 
 if (y == 1)
 then
-  print("Circle Area:", CircleArea(0, r))
+  print("Circle Area:", CircleArea(0, r, r2, a2))
   else
     print("Sphere Surface Area:", SphereTotalArea(0, 0, r))
 end
